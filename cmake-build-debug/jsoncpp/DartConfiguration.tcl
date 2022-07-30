@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp
-BuildDirectory: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp
+SourceDirectory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp
+BuildDirectory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 01:23:45 UTC
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/bin/cmake.exe" "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp"
+ConfigureCommand: "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/bin/cmake.exe" "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp"
 MakeCommand: "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

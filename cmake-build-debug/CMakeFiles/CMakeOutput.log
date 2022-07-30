@@ -452,3 +452,81 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file clocale exists passed with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_ff46a && [1/2] Building CXX object CMakeFiles/cmTC_ff46a.dir/CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_ff46a.exe
+
+
+
+Determining if the localeconv exist passed with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_e1012 && [1/2] Building CXX object CMakeFiles/cmTC_e1012.dir/CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_e1012.exe
+
+
+File C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <clocale>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localeconv
+  return ((int*)(&localeconv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_f78ec && [1/2] Building CXX object CMakeFiles/cmTC_f78ec.dir/CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_f78ec.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_65a93 && [1/2] Building CXX object CMakeFiles/cmTC_65a93.dir/CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_65a93.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_55aa2 && [1/2] Building CXX object CMakeFiles/cmTC_55aa2.dir/CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_55aa2.exe
+
+
+
+Determining size of lconv passed with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_a7211 && [1/2] Building CXX object CMakeFiles/cmTC_a7211.dir/LCONV_SIZE.cpp.obj
+[2/2] Linking CXX executable cmTC_a7211.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_DECIMAL_POINT succeeded with the following output:
+Change Dir: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2.3/bin/ninja/win/ninja.exe cmTC_5bc62 && [1/2] Building CXX object CMakeFiles/cmTC_5bc62.dir/src.cxx.obj
+[2/2] Linking CXX executable cmTC_5bc62.exe
+
+
+Source file was:
+
+#include <clocale>
+
+int main()
+{
+  (void)sizeof(((lconv *)0)->decimal_point);
+  return 0;
+}
+
