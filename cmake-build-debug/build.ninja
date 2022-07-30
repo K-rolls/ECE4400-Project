@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target ECE4400_Project
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-bu
 
 build cmake_object_order_depends_target_ECE4400_Project: phony || CMakeFiles/ECE4400_Project.dir
 
-build CMakeFiles/ECE4400_Project.dir/main.cpp.obj: CXX_COMPILER__ECE4400_Project_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/main.cpp || cmake_object_order_depends_target_ECE4400_Project
+build CMakeFiles/ECE4400_Project.dir/main.cpp.obj: CXX_COMPILER__ECE4400_Project_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/main.cpp || cmake_object_order_depends_target_ECE4400_Project
   DEP_FILE = CMakeFiles\ECE4400_Project.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++1z
   OBJECT_DIR = CMakeFiles\ECE4400_Project.dir
@@ -78,7 +78,7 @@ build bin/ECE4400_Project.exe: CXX_EXECUTABLE_LINKER__ECE4400_Project_Debug CMak
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -119,7 +119,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -131,7 +131,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -140,7 +140,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Keegan/Documents/Github/ECE4400-Project/CMakeLists.txt
+# C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/CMakeLists.txt
 # =============================================================================
 
 
@@ -316,7 +316,7 @@ build jsoncpp/ContinuousSubmit: phony jsoncpp/CMakeFiles/ContinuousSubmit
 # Utility command for edit_cache
 
 build jsoncpp/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -327,7 +327,7 @@ build jsoncpp/edit_cache: phony jsoncpp/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build jsoncpp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -345,7 +345,7 @@ build jsoncpp/list_install_components: phony
 # Utility command for install
 
 build jsoncpp/CMakeFiles/install.util: CUSTOM_COMMAND jsoncpp/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -357,7 +357,7 @@ build jsoncpp/install: phony jsoncpp/CMakeFiles/install.util
 # Utility command for install/local
 
 build jsoncpp/CMakeFiles/install/local.util: CUSTOM_COMMAND jsoncpp/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -369,7 +369,7 @@ build jsoncpp/install/local: phony jsoncpp/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build jsoncpp/CMakeFiles/install/strip.util: CUSTOM_COMMAND jsoncpp/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -381,7 +381,7 @@ build jsoncpp/install/strip: phony jsoncpp/CMakeFiles/install/strip.util
 # Custom command for jsoncpp\CMakeFiles\Experimental
 
 build jsoncpp/CMakeFiles/Experimental | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/Experimental: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D Experimental"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D Experimental"
   pool = console
 
 
@@ -389,7 +389,7 @@ build jsoncpp/CMakeFiles/Experimental | ${cmake_ninja_workdir}jsoncpp/CMakeFiles
 # Custom command for jsoncpp\CMakeFiles\Nightly
 
 build jsoncpp/CMakeFiles/Nightly | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/Nightly: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D Nightly"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D Nightly"
   pool = console
 
 
@@ -397,7 +397,7 @@ build jsoncpp/CMakeFiles/Nightly | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/Nigh
 # Custom command for jsoncpp\CMakeFiles\Continuous
 
 build jsoncpp/CMakeFiles/Continuous | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/Continuous: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D Continuous"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D Continuous"
   pool = console
 
 
@@ -405,7 +405,7 @@ build jsoncpp/CMakeFiles/Continuous | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/C
 # Custom command for jsoncpp\CMakeFiles\NightlyMemoryCheck
 
 build jsoncpp/CMakeFiles/NightlyMemoryCheck | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyMemoryCheck"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyMemoryCheck"
   pool = console
 
 
@@ -413,7 +413,7 @@ build jsoncpp/CMakeFiles/NightlyMemoryCheck | ${cmake_ninja_workdir}jsoncpp/CMak
 # Custom command for jsoncpp\CMakeFiles\NightlyStart
 
 build jsoncpp/CMakeFiles/NightlyStart | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyStart: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyStart"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyStart"
   pool = console
 
 
@@ -421,7 +421,7 @@ build jsoncpp/CMakeFiles/NightlyStart | ${cmake_ninja_workdir}jsoncpp/CMakeFiles
 # Custom command for jsoncpp\CMakeFiles\NightlyUpdate
 
 build jsoncpp/CMakeFiles/NightlyUpdate | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyUpdate"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyUpdate"
   pool = console
 
 
@@ -429,7 +429,7 @@ build jsoncpp/CMakeFiles/NightlyUpdate | ${cmake_ninja_workdir}jsoncpp/CMakeFile
 # Custom command for jsoncpp\CMakeFiles\NightlyConfigure
 
 build jsoncpp/CMakeFiles/NightlyConfigure | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyConfigure"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyConfigure"
   pool = console
 
 
@@ -437,7 +437,7 @@ build jsoncpp/CMakeFiles/NightlyConfigure | ${cmake_ninja_workdir}jsoncpp/CMakeF
 # Custom command for jsoncpp\CMakeFiles\NightlyBuild
 
 build jsoncpp/CMakeFiles/NightlyBuild | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyBuild: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyBuild"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyBuild"
   pool = console
 
 
@@ -445,7 +445,7 @@ build jsoncpp/CMakeFiles/NightlyBuild | ${cmake_ninja_workdir}jsoncpp/CMakeFiles
 # Custom command for jsoncpp\CMakeFiles\NightlyTest
 
 build jsoncpp/CMakeFiles/NightlyTest | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyTest: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyTest"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyTest"
   pool = console
 
 
@@ -453,7 +453,7 @@ build jsoncpp/CMakeFiles/NightlyTest | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/
 # Custom command for jsoncpp\CMakeFiles\NightlyCoverage
 
 build jsoncpp/CMakeFiles/NightlyCoverage | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyCoverage"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyCoverage"
   pool = console
 
 
@@ -461,7 +461,7 @@ build jsoncpp/CMakeFiles/NightlyCoverage | ${cmake_ninja_workdir}jsoncpp/CMakeFi
 # Custom command for jsoncpp\CMakeFiles\NightlyMemCheck
 
 build jsoncpp/CMakeFiles/NightlyMemCheck | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyMemCheck"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlyMemCheck"
   pool = console
 
 
@@ -469,7 +469,7 @@ build jsoncpp/CMakeFiles/NightlyMemCheck | ${cmake_ninja_workdir}jsoncpp/CMakeFi
 # Custom command for jsoncpp\CMakeFiles\NightlySubmit
 
 build jsoncpp/CMakeFiles/NightlySubmit | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/NightlySubmit: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlySubmit"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D NightlySubmit"
   pool = console
 
 
@@ -477,7 +477,7 @@ build jsoncpp/CMakeFiles/NightlySubmit | ${cmake_ninja_workdir}jsoncpp/CMakeFile
 # Custom command for jsoncpp\CMakeFiles\ExperimentalStart
 
 build jsoncpp/CMakeFiles/ExperimentalStart | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalStart"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalStart"
   pool = console
 
 
@@ -485,7 +485,7 @@ build jsoncpp/CMakeFiles/ExperimentalStart | ${cmake_ninja_workdir}jsoncpp/CMake
 # Custom command for jsoncpp\CMakeFiles\ExperimentalUpdate
 
 build jsoncpp/CMakeFiles/ExperimentalUpdate | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalUpdate"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalUpdate"
   pool = console
 
 
@@ -493,7 +493,7 @@ build jsoncpp/CMakeFiles/ExperimentalUpdate | ${cmake_ninja_workdir}jsoncpp/CMak
 # Custom command for jsoncpp\CMakeFiles\ExperimentalConfigure
 
 build jsoncpp/CMakeFiles/ExperimentalConfigure | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalConfigure"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalConfigure"
   pool = console
 
 
@@ -501,7 +501,7 @@ build jsoncpp/CMakeFiles/ExperimentalConfigure | ${cmake_ninja_workdir}jsoncpp/C
 # Custom command for jsoncpp\CMakeFiles\ExperimentalBuild
 
 build jsoncpp/CMakeFiles/ExperimentalBuild | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalBuild"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalBuild"
   pool = console
 
 
@@ -509,7 +509,7 @@ build jsoncpp/CMakeFiles/ExperimentalBuild | ${cmake_ninja_workdir}jsoncpp/CMake
 # Custom command for jsoncpp\CMakeFiles\ExperimentalTest
 
 build jsoncpp/CMakeFiles/ExperimentalTest | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalTest"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalTest"
   pool = console
 
 
@@ -517,7 +517,7 @@ build jsoncpp/CMakeFiles/ExperimentalTest | ${cmake_ninja_workdir}jsoncpp/CMakeF
 # Custom command for jsoncpp\CMakeFiles\ExperimentalCoverage
 
 build jsoncpp/CMakeFiles/ExperimentalCoverage | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalCoverage"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalCoverage"
   pool = console
 
 
@@ -525,7 +525,7 @@ build jsoncpp/CMakeFiles/ExperimentalCoverage | ${cmake_ninja_workdir}jsoncpp/CM
 # Custom command for jsoncpp\CMakeFiles\ExperimentalMemCheck
 
 build jsoncpp/CMakeFiles/ExperimentalMemCheck | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalMemCheck"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalMemCheck"
   pool = console
 
 
@@ -533,7 +533,7 @@ build jsoncpp/CMakeFiles/ExperimentalMemCheck | ${cmake_ninja_workdir}jsoncpp/CM
 # Custom command for jsoncpp\CMakeFiles\ExperimentalSubmit
 
 build jsoncpp/CMakeFiles/ExperimentalSubmit | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalSubmit"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ExperimentalSubmit"
   pool = console
 
 
@@ -541,7 +541,7 @@ build jsoncpp/CMakeFiles/ExperimentalSubmit | ${cmake_ninja_workdir}jsoncpp/CMak
 # Custom command for jsoncpp\CMakeFiles\ContinuousStart
 
 build jsoncpp/CMakeFiles/ContinuousStart | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousStart: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousStart"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousStart"
   pool = console
 
 
@@ -549,7 +549,7 @@ build jsoncpp/CMakeFiles/ContinuousStart | ${cmake_ninja_workdir}jsoncpp/CMakeFi
 # Custom command for jsoncpp\CMakeFiles\ContinuousUpdate
 
 build jsoncpp/CMakeFiles/ContinuousUpdate | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousUpdate"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousUpdate"
   pool = console
 
 
@@ -557,7 +557,7 @@ build jsoncpp/CMakeFiles/ContinuousUpdate | ${cmake_ninja_workdir}jsoncpp/CMakeF
 # Custom command for jsoncpp\CMakeFiles\ContinuousConfigure
 
 build jsoncpp/CMakeFiles/ContinuousConfigure | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousConfigure"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousConfigure"
   pool = console
 
 
@@ -565,7 +565,7 @@ build jsoncpp/CMakeFiles/ContinuousConfigure | ${cmake_ninja_workdir}jsoncpp/CMa
 # Custom command for jsoncpp\CMakeFiles\ContinuousBuild
 
 build jsoncpp/CMakeFiles/ContinuousBuild | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousBuild"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousBuild"
   pool = console
 
 
@@ -573,7 +573,7 @@ build jsoncpp/CMakeFiles/ContinuousBuild | ${cmake_ninja_workdir}jsoncpp/CMakeFi
 # Custom command for jsoncpp\CMakeFiles\ContinuousTest
 
 build jsoncpp/CMakeFiles/ContinuousTest | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousTest: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousTest"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousTest"
   pool = console
 
 
@@ -581,7 +581,7 @@ build jsoncpp/CMakeFiles/ContinuousTest | ${cmake_ninja_workdir}jsoncpp/CMakeFil
 # Custom command for jsoncpp\CMakeFiles\ContinuousCoverage
 
 build jsoncpp/CMakeFiles/ContinuousCoverage | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousCoverage"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousCoverage"
   pool = console
 
 
@@ -589,7 +589,7 @@ build jsoncpp/CMakeFiles/ContinuousCoverage | ${cmake_ninja_workdir}jsoncpp/CMak
 # Custom command for jsoncpp\CMakeFiles\ContinuousMemCheck
 
 build jsoncpp/CMakeFiles/ContinuousMemCheck | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousMemCheck"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousMemCheck"
   pool = console
 
 
@@ -597,12 +597,12 @@ build jsoncpp/CMakeFiles/ContinuousMemCheck | ${cmake_ninja_workdir}jsoncpp/CMak
 # Custom command for jsoncpp\CMakeFiles\ContinuousSubmit
 
 build jsoncpp/CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}jsoncpp/CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousSubmit"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\ctest.exe" -D ContinuousSubmit"
   pool = console
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/CMakeLists.txt
+# C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -610,7 +610,7 @@ build jsoncpp/CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}jsoncpp/CMakeF
 # Utility command for edit_cache
 
 build jsoncpp/src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -621,7 +621,7 @@ build jsoncpp/src/edit_cache: phony jsoncpp/src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build jsoncpp/src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -639,7 +639,7 @@ build jsoncpp/src/list_install_components: phony
 # Utility command for install
 
 build jsoncpp/src/CMakeFiles/install.util: CUSTOM_COMMAND jsoncpp/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -651,7 +651,7 @@ build jsoncpp/src/install: phony jsoncpp/src/CMakeFiles/install.util
 # Utility command for install/local
 
 build jsoncpp/src/CMakeFiles/install/local.util: CUSTOM_COMMAND jsoncpp/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -663,7 +663,7 @@ build jsoncpp/src/install/local: phony jsoncpp/src/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build jsoncpp/src/CMakeFiles/install/strip.util: CUSTOM_COMMAND jsoncpp/src/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -672,7 +672,7 @@ build jsoncpp/src/install/strip: phony jsoncpp/src/CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/CMakeLists.txt
+# C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -684,27 +684,27 @@ build jsoncpp/src/install/strip: phony jsoncpp/src/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_jsoncpp_lib: phony || jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_lib_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_reader.cpp || cmake_object_order_depends_target_jsoncpp_lib
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_lib_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_reader.cpp || cmake_object_order_depends_target_jsoncpp_lib
   DEFINES = -DJSON_DLL_BUILD -Djsoncpp_lib_EXPORTS
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir\json_reader.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_value.cpp.obj: CXX_COMPILER__jsoncpp_lib_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_value.cpp || cmake_object_order_depends_target_jsoncpp_lib
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_value.cpp.obj: CXX_COMPILER__jsoncpp_lib_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_value.cpp || cmake_object_order_depends_target_jsoncpp_lib
   DEFINES = -DJSON_DLL_BUILD -Djsoncpp_lib_EXPORTS
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir\json_value.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_lib_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_writer.cpp || cmake_object_order_depends_target_jsoncpp_lib
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_lib.dir/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_lib_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_writer.cpp || cmake_object_order_depends_target_jsoncpp_lib
   DEFINES = -DJSON_DLL_BUILD -Djsoncpp_lib_EXPORTS
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir\json_writer.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_lib.dir
 
@@ -736,27 +736,27 @@ build bin/libjsoncpp.dll lib/libjsoncpp.dll.a: CXX_SHARED_LIBRARY_LINKER__jsoncp
 
 build cmake_object_order_depends_target_jsoncpp_static: phony || jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_static_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_reader.cpp || cmake_object_order_depends_target_jsoncpp_static
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_static_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_reader.cpp || cmake_object_order_depends_target_jsoncpp_static
   DEFINES = -DJSON_DLL_BUILD
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir\json_reader.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_value.cpp.obj: CXX_COMPILER__jsoncpp_static_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_value.cpp || cmake_object_order_depends_target_jsoncpp_static
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_value.cpp.obj: CXX_COMPILER__jsoncpp_static_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_value.cpp || cmake_object_order_depends_target_jsoncpp_static
   DEFINES = -DJSON_DLL_BUILD
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir\json_value.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_static_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_writer.cpp || cmake_object_order_depends_target_jsoncpp_static
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_static.dir/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_static_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_writer.cpp || cmake_object_order_depends_target_jsoncpp_static
   DEFINES = -DJSON_DLL_BUILD
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir\json_writer.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_static.dir
 
@@ -785,27 +785,27 @@ build lib/libjsoncpp.a: CXX_STATIC_LIBRARY_LINKER__jsoncpp_static_Debug jsoncpp/
 
 build cmake_object_order_depends_target_jsoncpp_object: phony || jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_object_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_reader.cpp || cmake_object_order_depends_target_jsoncpp_object
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_reader.cpp.obj: CXX_COMPILER__jsoncpp_object_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_reader.cpp || cmake_object_order_depends_target_jsoncpp_object
   DEFINES = -DJSON_DLL_BUILD
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir\json_reader.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_value.cpp.obj: CXX_COMPILER__jsoncpp_object_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_value.cpp || cmake_object_order_depends_target_jsoncpp_object
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_value.cpp.obj: CXX_COMPILER__jsoncpp_object_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_value.cpp || cmake_object_order_depends_target_jsoncpp_object
   DEFINES = -DJSON_DLL_BUILD
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir\json_value.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir
 
-build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_object_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/json_writer.cpp || cmake_object_order_depends_target_jsoncpp_object
+build jsoncpp/src/lib_json/CMakeFiles/jsoncpp_object.dir/json_writer.cpp.obj: CXX_COMPILER__jsoncpp_object_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/json_writer.cpp || cmake_object_order_depends_target_jsoncpp_object
   DEFINES = -DJSON_DLL_BUILD
   DEP_FILE = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir\json_writer.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir
   OBJECT_FILE_DIR = jsoncpp\src\lib_json\CMakeFiles\jsoncpp_object.dir
 
@@ -821,7 +821,7 @@ build jsoncpp/src/lib_json/jsoncpp_object: phony jsoncpp/src/lib_json/CMakeFiles
 # Utility command for edit_cache
 
 build jsoncpp/src/lib_json/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -832,7 +832,7 @@ build jsoncpp/src/lib_json/edit_cache: phony jsoncpp/src/lib_json/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build jsoncpp/src/lib_json/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -850,7 +850,7 @@ build jsoncpp/src/lib_json/list_install_components: phony
 # Utility command for install
 
 build jsoncpp/src/lib_json/CMakeFiles/install.util: CUSTOM_COMMAND jsoncpp/src/lib_json/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -862,7 +862,7 @@ build jsoncpp/src/lib_json/install: phony jsoncpp/src/lib_json/CMakeFiles/instal
 # Utility command for install/local
 
 build jsoncpp/src/lib_json/CMakeFiles/install/local.util: CUSTOM_COMMAND jsoncpp/src/lib_json/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -874,7 +874,7 @@ build jsoncpp/src/lib_json/install/local: phony jsoncpp/src/lib_json/CMakeFiles/
 # Utility command for install/strip
 
 build jsoncpp/src/lib_json/CMakeFiles/install/strip.util: CUSTOM_COMMAND jsoncpp/src/lib_json/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -883,7 +883,7 @@ build jsoncpp/src/lib_json/install/strip: phony jsoncpp/src/lib_json/CMakeFiles/
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/CMakeLists.txt
+# C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -895,11 +895,11 @@ build jsoncpp/src/lib_json/install/strip: phony jsoncpp/src/lib_json/CMakeFiles/
 
 build cmake_object_order_depends_target_jsontestrunner_exe: phony || cmake_object_order_depends_target_jsoncpp_lib
 
-build jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.obj: CXX_COMPILER__jsontestrunner_exe_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/jsontestrunner/main.cpp || cmake_object_order_depends_target_jsontestrunner_exe
+build jsoncpp/src/jsontestrunner/CMakeFiles/jsontestrunner_exe.dir/main.cpp.obj: CXX_COMPILER__jsontestrunner_exe_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/jsontestrunner/main.cpp || cmake_object_order_depends_target_jsontestrunner_exe
   DEFINES = -DJSON_DLL
   DEP_FILE = jsoncpp\src\jsontestrunner\CMakeFiles\jsontestrunner_exe.dir\main.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\jsontestrunner\CMakeFiles\jsontestrunner_exe.dir
   OBJECT_FILE_DIR = jsoncpp\src\jsontestrunner\CMakeFiles\jsontestrunner_exe.dir
 
@@ -938,7 +938,7 @@ build jsoncpp/src/jsontestrunner/jsoncpp_check: phony jsoncpp/src/jsontestrunner
 # Utility command for edit_cache
 
 build jsoncpp/src/jsontestrunner/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -949,7 +949,7 @@ build jsoncpp/src/jsontestrunner/edit_cache: phony jsoncpp/src/jsontestrunner/CM
 # Utility command for rebuild_cache
 
 build jsoncpp/src/jsontestrunner/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -967,7 +967,7 @@ build jsoncpp/src/jsontestrunner/list_install_components: phony
 # Utility command for install
 
 build jsoncpp/src/jsontestrunner/CMakeFiles/install.util: CUSTOM_COMMAND jsoncpp/src/jsontestrunner/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -979,7 +979,7 @@ build jsoncpp/src/jsontestrunner/install: phony jsoncpp/src/jsontestrunner/CMake
 # Utility command for install/local
 
 build jsoncpp/src/jsontestrunner/CMakeFiles/install/local.util: CUSTOM_COMMAND jsoncpp/src/jsontestrunner/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -991,7 +991,7 @@ build jsoncpp/src/jsontestrunner/install/local: phony jsoncpp/src/jsontestrunner
 # Utility command for install/strip
 
 build jsoncpp/src/jsontestrunner/CMakeFiles/install/strip.util: CUSTOM_COMMAND jsoncpp/src/jsontestrunner/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1003,7 +1003,7 @@ build jsoncpp/src/jsontestrunner/install/strip: phony jsoncpp/src/jsontestrunner
 # Custom command for jsoncpp\src\jsontestrunner\CMakeFiles\jsoncpp_readerwriter_tests
 
 build jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests | ${cmake_ninja_workdir}jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_readerwriter_tests: CUSTOM_COMMAND bin/jsontestrunner_exe.exe bin/jsoncpp_test.exe || bin/jsoncpp_test.exe bin/jsontestrunner_exe.exe bin/libjsoncpp.dll
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && C:\Users\Keegan\AppData\Local\Microsoft\WindowsApps\python3.9.exe -B C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/jsontestrunner/../../test/runjsontests.py C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/bin/jsontestrunner_exe.exe C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/jsontestrunner/../../test/data"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\jsontestrunner && C:\Users\Keegan\AppData\Local\Microsoft\WindowsApps\python3.9.exe -B C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/jsontestrunner/../../test/runjsontests.py C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/bin/jsontestrunner_exe.exe C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/jsontestrunner/../../test/data"
 
 
 #############################################
@@ -1013,7 +1013,7 @@ build jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check | ${cmake_ninja_workdi
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/CMakeLists.txt
+# C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -1025,27 +1025,27 @@ build jsoncpp/src/jsontestrunner/CMakeFiles/jsoncpp_check | ${cmake_ninja_workdi
 
 build cmake_object_order_depends_target_jsoncpp_test: phony || cmake_object_order_depends_target_jsoncpp_lib
 
-build jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/jsontest.cpp.obj: CXX_COMPILER__jsoncpp_test_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/test_lib_json/jsontest.cpp || cmake_object_order_depends_target_jsoncpp_test
+build jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/jsontest.cpp.obj: CXX_COMPILER__jsoncpp_test_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/test_lib_json/jsontest.cpp || cmake_object_order_depends_target_jsoncpp_test
   DEFINES = -DJSON_DLL
   DEP_FILE = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir\jsontest.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
   OBJECT_FILE_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
 
-build jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/fuzz.cpp.obj: CXX_COMPILER__jsoncpp_test_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/test_lib_json/fuzz.cpp || cmake_object_order_depends_target_jsoncpp_test
+build jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/fuzz.cpp.obj: CXX_COMPILER__jsoncpp_test_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/test_lib_json/fuzz.cpp || cmake_object_order_depends_target_jsoncpp_test
   DEFINES = -DJSON_DLL
   DEP_FILE = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir\fuzz.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
   OBJECT_FILE_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
 
-build jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/main.cpp.obj: CXX_COMPILER__jsoncpp_test_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/test_lib_json/main.cpp || cmake_object_order_depends_target_jsoncpp_test
+build jsoncpp/src/test_lib_json/CMakeFiles/jsoncpp_test.dir/main.cpp.obj: CXX_COMPILER__jsoncpp_test_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/test_lib_json/main.cpp || cmake_object_order_depends_target_jsoncpp_test
   DEFINES = -DJSON_DLL
   DEP_FILE = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir\main.cpp.obj.d
   FLAGS = -g -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11
-  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
+  INCLUDES = -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include -IC:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json
   OBJECT_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
   OBJECT_FILE_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
 
@@ -1061,7 +1061,7 @@ build bin/jsoncpp_test.exe: CXX_EXECUTABLE_LINKER__jsoncpp_test_Debug jsoncpp/sr
   FLAGS = -g
   LINK_LIBRARIES = lib/libjsoncpp.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = jsoncpp\src\test_lib_json\CMakeFiles\jsoncpp_test.dir
-  POST_BUILD = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\bin\jsoncpp_test.exe"
+  POST_BUILD = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\bin\jsoncpp_test.exe"
   PRE_LINK = cd .
   TARGET_FILE = bin\jsoncpp_test.exe
   TARGET_IMPLIB = lib\libjsoncpp_test.dll.a
@@ -1072,7 +1072,7 @@ build bin/jsoncpp_test.exe: CXX_EXECUTABLE_LINKER__jsoncpp_test_Debug jsoncpp/sr
 # Utility command for edit_cache
 
 build jsoncpp/src/test_lib_json/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1083,7 +1083,7 @@ build jsoncpp/src/test_lib_json/edit_cache: phony jsoncpp/src/test_lib_json/CMak
 # Utility command for rebuild_cache
 
 build jsoncpp/src/test_lib_json/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1101,7 +1101,7 @@ build jsoncpp/src/test_lib_json/list_install_components: phony
 # Utility command for install
 
 build jsoncpp/src/test_lib_json/CMakeFiles/install.util: CUSTOM_COMMAND jsoncpp/src/test_lib_json/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1113,7 +1113,7 @@ build jsoncpp/src/test_lib_json/install: phony jsoncpp/src/test_lib_json/CMakeFi
 # Utility command for install/local
 
 build jsoncpp/src/test_lib_json/CMakeFiles/install/local.util: CUSTOM_COMMAND jsoncpp/src/test_lib_json/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1125,7 +1125,7 @@ build jsoncpp/src/test_lib_json/install/local: phony jsoncpp/src/test_lib_json/C
 # Utility command for install/strip
 
 build jsoncpp/src/test_lib_json/CMakeFiles/install/strip.util: CUSTOM_COMMAND jsoncpp/src/test_lib_json/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\src\test_lib_json && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1134,7 +1134,7 @@ build jsoncpp/src/test_lib_json/install/strip: phony jsoncpp/src/test_lib_json/C
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/CMakeLists.txt
+# C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -1142,7 +1142,7 @@ build jsoncpp/src/test_lib_json/install/strip: phony jsoncpp/src/test_lib_json/C
 # Utility command for edit_cache
 
 build jsoncpp/include/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1153,7 +1153,7 @@ build jsoncpp/include/edit_cache: phony jsoncpp/include/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build jsoncpp/include/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project -BC:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1171,7 +1171,7 @@ build jsoncpp/include/list_install_components: phony
 # Utility command for install
 
 build jsoncpp/include/CMakeFiles/install.util: CUSTOM_COMMAND jsoncpp/include/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -1183,7 +1183,7 @@ build jsoncpp/include/install: phony jsoncpp/include/CMakeFiles/install.util
 # Utility command for install/local
 
 build jsoncpp/include/CMakeFiles/install/local.util: CUSTOM_COMMAND jsoncpp/include/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -1195,7 +1195,7 @@ build jsoncpp/include/install/local: phony jsoncpp/include/CMakeFiles/install/lo
 # Utility command for install/strip
 
 build jsoncpp/include/CMakeFiles/install/strip.util: CUSTOM_COMMAND jsoncpp/include/all
-  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\Keegan\Documents\Github\ECE4400-Project\ECE4400-Project\cmake-build-debug\jsoncpp\include && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -1293,49 +1293,49 @@ build libjsoncpp.dll: phony bin/libjsoncpp.dll
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug
 
 build all: phony bin/ECE4400_Project.exe jsoncpp/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp
 
 build jsoncpp/all: phony jsoncpp/src/all jsoncpp/include/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include
 
 build jsoncpp/include/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src
 
 build jsoncpp/src/all: phony jsoncpp/src/lib_json/all jsoncpp/src/jsontestrunner/all jsoncpp/src/test_lib_json/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/jsontestrunner
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/jsontestrunner
 
 build jsoncpp/src/jsontestrunner/all: phony bin/jsontestrunner_exe.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/lib_json
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/lib_json
 
 build jsoncpp/src/lib_json/all: phony bin/libjsoncpp.dll lib/libjsoncpp.a jsoncpp/src/lib_json/jsoncpp_object
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/test_lib_json
+# Folder: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/test_lib_json
 
 build jsoncpp/src/test_lib_json/all: phony bin/jsoncpp_test.exe
 
@@ -1346,14 +1346,14 @@ build jsoncpp/src/test_lib_json/all: phony bin/jsoncpp_test.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../jsoncpp/CMakeLists.txt ../jsoncpp/CTestConfig.cmake ../jsoncpp/cmake/JoinPaths.cmake ../jsoncpp/include/CMakeLists.txt ../jsoncpp/include/PreventInBuildInstalls.cmake ../jsoncpp/include/PreventInSourceBuilds.cmake ../jsoncpp/jsoncppConfig.cmake.in ../jsoncpp/pkg-config/jsoncpp.pc.in ../jsoncpp/src/CMakeLists.txt ../jsoncpp/src/jsontestrunner/CMakeLists.txt ../jsoncpp/src/lib_json/CMakeLists.txt ../jsoncpp/src/test_lib_json/CMakeLists.txt ../jsoncpp/version.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeConfigurableFile.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestUseLaunchers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cxx.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckStructHasMember.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.c.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/DartConfiguration.tcl.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake CMakeFiles/CheckTypeSize/LCONV_SIZE.cpp
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../jsoncpp/CMakeLists.txt ../jsoncpp/CTestConfig.cmake ../jsoncpp/cmake/JoinPaths.cmake ../jsoncpp/include/CMakeLists.txt ../jsoncpp/include/PreventInBuildInstalls.cmake ../jsoncpp/include/PreventInSourceBuilds.cmake ../jsoncpp/jsoncppConfig.cmake.in ../jsoncpp/pkg-config/jsoncpp.pc.in ../jsoncpp/src/CMakeLists.txt ../jsoncpp/src/jsontestrunner/CMakeLists.txt ../jsoncpp/src/lib_json/CMakeLists.txt ../jsoncpp/src/test_lib_json/CMakeLists.txt ../jsoncpp/version.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestUseLaunchers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckStructHasMember.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/DartConfiguration.tcl.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../jsoncpp/CMakeLists.txt ../jsoncpp/CTestConfig.cmake ../jsoncpp/cmake/JoinPaths.cmake ../jsoncpp/include/CMakeLists.txt ../jsoncpp/include/PreventInBuildInstalls.cmake ../jsoncpp/include/PreventInSourceBuilds.cmake ../jsoncpp/jsoncppConfig.cmake.in ../jsoncpp/pkg-config/jsoncpp.pc.in ../jsoncpp/src/CMakeLists.txt ../jsoncpp/src/jsontestrunner/CMakeLists.txt ../jsoncpp/src/lib_json/CMakeLists.txt ../jsoncpp/src/test_lib_json/CMakeLists.txt ../jsoncpp/version.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeConfigurableFile.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestUseLaunchers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cxx.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckStructHasMember.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.c.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/DartConfiguration.tcl.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake CMakeFiles/CheckTypeSize/LCONV_SIZE.cpp: phony
+build ../CMakeLists.txt ../jsoncpp/CMakeLists.txt ../jsoncpp/CTestConfig.cmake ../jsoncpp/cmake/JoinPaths.cmake ../jsoncpp/include/CMakeLists.txt ../jsoncpp/include/PreventInBuildInstalls.cmake ../jsoncpp/include/PreventInSourceBuilds.cmake ../jsoncpp/jsoncppConfig.cmake.in ../jsoncpp/pkg-config/jsoncpp.pc.in ../jsoncpp/src/CMakeLists.txt ../jsoncpp/src/jsontestrunner/CMakeLists.txt ../jsoncpp/src/lib_json/CMakeLists.txt ../jsoncpp/src/test_lib_json/CMakeLists.txt ../jsoncpp/version.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTest.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestTargets.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CTestUseLaunchers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckCXXSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckStructHasMember.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckSymbolExists.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/DartConfiguration.tcl.in C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeRCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

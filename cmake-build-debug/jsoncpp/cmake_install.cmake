@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp
+# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/pkg-config/jsoncpp.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/pkg-config/jsoncpp.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp/jsoncpp-targets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp/jsoncpp-targets.cmake"
-         "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/CMakeFiles/Export/lib/cmake/jsoncpp/jsoncpp-targets.cmake")
+         "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/CMakeFiles/Export/lib/cmake/jsoncpp/jsoncpp-targets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp/jsoncpp-targets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -54,24 +54,24 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp" TYPE FILE FILES "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/CMakeFiles/Export/lib/cmake/jsoncpp/jsoncpp-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp" TYPE FILE FILES "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/CMakeFiles/Export/lib/cmake/jsoncpp/jsoncpp-targets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp" TYPE FILE FILES "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/CMakeFiles/Export/lib/cmake/jsoncpp/jsoncpp-targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp" TYPE FILE FILES "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/CMakeFiles/Export/lib/cmake/jsoncpp/jsoncpp-targets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/jsoncpp" TYPE FILE FILES
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/jsoncppConfigVersion.cmake"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/jsoncppConfig.cmake"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/jsoncpp-namespaced-targets.cmake"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/jsoncppConfigVersion.cmake"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/jsoncppConfig.cmake"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/jsoncpp-namespaced-targets.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/cmake_install.cmake")
-  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/cmake_install.cmake")
+  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/cmake_install.cmake")
+  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/cmake_install.cmake")
 
 endif()
 
