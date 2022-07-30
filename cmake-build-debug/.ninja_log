@@ -1,0 +1,6 @@
+# ninja log v5
+1	1266	6808429249410437	CMakeFiles/ECE4400_Project.dir/main.cpp.obj	c5f42ee7eb35017
+6	4135	6808429278139679	CMakeFiles/ECE4400_Project.dir/jsoncpp/dist/jsoncpp.cpp.obj	bf931012a5753fbd
+4135	4538	6808429282139528	bin/ECE4400_Project.exe	a5ac3cd93b258823
+4	1241	6808432037714722	CMakeFiles/ECE4400_Project.dir/main.cpp.obj	c5f42ee7eb35017
+1242	1687	6808432042137655	bin/ECE4400_Project.exe	a5ac3cd93b258823

@@ -271,40 +271,6 @@
 			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckSymbolExists.cmake"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cxx.in"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CMakeConfigurableFile.in"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cxx.in"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cxx.in"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckIncludeFile.cxx.in"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.23/Modules/CheckTypeSize.c.in"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/CheckTypeSize/LCONV_SIZE.cpp"
-		},
-		{
 			"path" : "jsoncpp/src/jsontestrunner/CMakeLists.txt"
 		},
 		{
@@ -337,8 +303,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug",
-		"source" : "C:/Users/Keegan/Documents/Github/ECE4400-Project"
+		"build" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug",
+		"source" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project"
 	},
 	"version" : 
 	{

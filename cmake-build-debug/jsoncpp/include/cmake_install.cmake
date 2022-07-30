@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include
+# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/json" TYPE FILE FILES
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/allocator.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/assertions.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/config.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/forwards.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/json.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/json_features.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/reader.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/value.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/version.h"
-    "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include/json/writer.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/allocator.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/assertions.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/config.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/forwards.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/json.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/json_features.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/reader.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/value.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/version.h"
+    "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include/json/writer.h"
     )
 endif()
 

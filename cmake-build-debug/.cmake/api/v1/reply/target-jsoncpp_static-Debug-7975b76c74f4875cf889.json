@@ -1,14 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/libjsoncpp.dll"
-		},
-		{
-			"path" : "lib/libjsoncpp.dll.a"
-		},
-		{
-			"path" : "bin/libjsoncpp.pdb"
+			"path" : "lib/libjsoncpp.a"
 		}
 	],
 	"backtrace" : 1,
@@ -37,7 +32,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 117,
+				"line" : 143,
 				"parent" : 0
 			},
 			{
@@ -82,13 +77,13 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 132,
+				"line" : 166,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 130,
+				"line" : 164,
 				"parent" : 0
 			}
 		]
@@ -134,24 +129,21 @@
 				{
 					"backtrace" : 7,
 					"define" : "JSON_DLL_BUILD"
-				},
-				{
-					"define" : "jsoncpp_lib_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include"
+					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include"
+					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json"
+					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json"
 				}
 			],
 			"language" : "CXX",
@@ -195,7 +187,7 @@
 			]
 		}
 	],
-	"id" : "jsoncpp_lib::@a9cdb551c294815260e6",
+	"id" : "jsoncpp_static::@a9cdb551c294815260e6",
 	"install" : 
 	{
 		"destinations" : 
@@ -203,10 +195,6 @@
 			{
 				"backtrace" : 2,
 				"path" : "lib"
-			},
-			{
-				"backtrace" : 2,
-				"path" : "bin"
 			}
 		],
 		"prefix" : 
@@ -214,23 +202,8 @@
 			"path" : "C:/Program Files (x86)/ECE4400_Project"
 		}
 	},
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "jsoncpp_lib",
-	"nameOnDisk" : "libjsoncpp.dll",
+	"name" : "jsoncpp_static",
+	"nameOnDisk" : "libjsoncpp.a",
 	"paths" : 
 	{
 		"build" : "jsoncpp/src/lib_json",
@@ -341,5 +314,5 @@
 			"sourceGroupIndex" : 2
 		}
 	],
-	"type" : "SHARED_LIBRARY"
+	"type" : "STATIC_LIBRARY"
 }

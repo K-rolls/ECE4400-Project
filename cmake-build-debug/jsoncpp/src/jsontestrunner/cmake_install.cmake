@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/jsontestrunner
+# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/jsontestrunner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

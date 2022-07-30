@@ -55,7 +55,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -92,13 +93,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
-			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
+				0,
 				1
 			]
 		},
@@ -120,13 +115,14 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "jsoncpp",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"path" : "jsoncpp/dist/jsoncpp.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"path" : "jsoncpp/dist/json/json.h",
-			"sourceGroupIndex" : 2
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
