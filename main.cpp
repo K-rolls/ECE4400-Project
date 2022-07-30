@@ -4,16 +4,16 @@
 #include <fstream>
 
 using namespace std;
-int main(int argc, _TCHAR* argv[])
-{
+
+int main(int argc, _TCHAR *argv[]) {
     Json::Reader reader;
     Json::Value root;
-    ifstream inputJson("inputJson.json", std::ifstream::binary);
+    ifstream inputJson("testjson.json", std::ifstream::binary);
     bool parseSuccess = reader.parse(inputJson, root, false);
-    if (parseSuccess)
-    {
+    if (parseSuccess) {
         const Json::Value resultValue = root["result"];
-        cout << "Result is " << resultValue.asString() << "\n";
+        cout << "Result is " << resultValue << "\n";
+        cout << root;
     }
     Json::StyledWriter styledWriter;
     Json::FastWriter fastWriter;
@@ -21,5 +21,8 @@ int main(int argc, _TCHAR* argv[])
     newValue["result"] = "ok";
     cout << styledWriter.write(newValue) << "\n";
     cout << fastWriter.write(newValue) << "\n";
+    Json::Value value;
+    value["test"] = "email";
+    cout << value;
     return 0;
 }
