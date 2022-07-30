@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/test_lib_json
+# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/test_lib_json
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

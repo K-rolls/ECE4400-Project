@@ -140,15 +140,15 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/include"
+					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src/lib_json/../../include"
+					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src/lib_json/../../include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/include/json"
+					"path" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/include/json"
 				}
 			],
 			"language" : "CXX",

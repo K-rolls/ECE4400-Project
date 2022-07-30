@@ -290,7 +290,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ECE4400_Project::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ECE4400_Project-Debug-defeae099a6234f25757.json",
+					"jsonFile" : "target-ECE4400_Project-Debug-b86ed6f415656cda4c1a.json",
 					"name" : "ECE4400_Project",
 					"projectIndex" : 0
 				},
@@ -437,14 +437,14 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "jsoncpp_lib::@a9cdb551c294815260e6",
-					"jsonFile" : "target-jsoncpp_lib-Debug-6587ce81c58445295f2f.json",
+					"jsonFile" : "target-jsoncpp_lib-Debug-8fff1639befddb590f51.json",
 					"name" : "jsoncpp_lib",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "jsoncpp_object::@a9cdb551c294815260e6",
-					"jsonFile" : "target-jsoncpp_object-Debug-b44232a9294d7a18e8ea.json",
+					"jsonFile" : "target-jsoncpp_object-Debug-29df4a2e443928ff19c8.json",
 					"name" : "jsoncpp_object",
 					"projectIndex" : 1
 				},
@@ -458,21 +458,21 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "jsoncpp_static::@a9cdb551c294815260e6",
-					"jsonFile" : "target-jsoncpp_static-Debug-7975b76c74f4875cf889.json",
+					"jsonFile" : "target-jsoncpp_static-Debug-16e571a7b2b89ac3f300.json",
 					"name" : "jsoncpp_static",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "jsoncpp_test::@cf1454c4c7458d22356d",
-					"jsonFile" : "target-jsoncpp_test-Debug-ed696a7369b2482acdf6.json",
+					"jsonFile" : "target-jsoncpp_test-Debug-379294f5c8d1e56d1604.json",
 					"name" : "jsoncpp_test",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "jsontestrunner_exe::@898095796348ec95278f",
-					"jsonFile" : "target-jsontestrunner_exe-Debug-d125f24df474595a23c7.json",
+					"jsonFile" : "target-jsontestrunner_exe-Debug-eaa7dd259fb14217f752.json",
 					"name" : "jsontestrunner_exe",
 					"projectIndex" : 1
 				}
@@ -482,8 +482,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug",
-		"source" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project"
+		"build" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug",
+		"source" : "C:/Users/Keegan/Documents/Github/ECE4400-Project"
 	},
 	"version" : 
 	{

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsoncpp/src
+# Install script for directory: C:/Users/Keegan/Documents/Github/ECE4400-Project/jsoncpp/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/lib_json/cmake_install.cmake")
-  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/jsontestrunner/cmake_install.cmake")
-  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp/src/test_lib_json/cmake_install.cmake")
+  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/lib_json/cmake_install.cmake")
+  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/jsontestrunner/cmake_install.cmake")
+  include("C:/Users/Keegan/Documents/Github/ECE4400-Project/cmake-build-debug/jsoncpp/src/test_lib_json/cmake_install.cmake")
 
 endif()
 

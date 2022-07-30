@@ -7,5 +7,5 @@ add_subdirectory(jsoncpp)
 
 add_executable(ECE4400_Project
         main.cpp
-        jsoncpp/dist/jsoncpp.cpp
+        jsoncpp
         jsoncpp/dist/json/json.h)
