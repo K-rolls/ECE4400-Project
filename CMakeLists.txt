@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 14)
 add_library(jsoncpp STATIC jsoncpp/dist/jsoncpp.cpp)
 
 add_executable(ECE4400_Project
-        main.cpp
+        jsonEditing.cpp
         jsoncpp/dist/jsoncpp.cpp
         )

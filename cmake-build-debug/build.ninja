@@ -80,8 +80,8 @@ build lib/libjsoncpp.a: CXX_STATIC_LIBRARY_LINKER__jsoncpp_Debug CMakeFiles/json
 
 build cmake_object_order_depends_target_ECE4400_Project: phony || CMakeFiles/ECE4400_Project.dir
 
-build CMakeFiles/ECE4400_Project.dir/main.cpp.obj: CXX_COMPILER__ECE4400_Project_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/main.cpp || cmake_object_order_depends_target_ECE4400_Project
-  DEP_FILE = CMakeFiles\ECE4400_Project.dir\main.cpp.obj.d
+build CMakeFiles/ECE4400_Project.dir/jsonEditing.cpp.obj: CXX_COMPILER__ECE4400_Project_Debug C$:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/jsonEditing.cpp || cmake_object_order_depends_target_ECE4400_Project
+  DEP_FILE = CMakeFiles\ECE4400_Project.dir\jsonEditing.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\ECE4400_Project.dir
   OBJECT_FILE_DIR = CMakeFiles\ECE4400_Project.dir
@@ -100,7 +100,7 @@ build CMakeFiles/ECE4400_Project.dir/jsoncpp/dist/jsoncpp.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable bin\ECE4400_Project.exe
 
-build bin/ECE4400_Project.exe: CXX_EXECUTABLE_LINKER__ECE4400_Project_Debug CMakeFiles/ECE4400_Project.dir/main.cpp.obj CMakeFiles/ECE4400_Project.dir/jsoncpp/dist/jsoncpp.cpp.obj
+build bin/ECE4400_Project.exe: CXX_EXECUTABLE_LINKER__ECE4400_Project_Debug CMakeFiles/ECE4400_Project.dir/jsonEditing.cpp.obj CMakeFiles/ECE4400_Project.dir/jsoncpp/dist/jsoncpp.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ECE4400_Project.dir
