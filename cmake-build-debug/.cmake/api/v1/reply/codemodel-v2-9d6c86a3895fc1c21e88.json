@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Projects::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Projects-Debug-76d26ec9d8e7658e7452.json",
+					"jsonFile" : "target-Projects-Debug-d1d7e43df073c8794faa.json",
 					"name" : "Projects",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Cole/CLionProjects/Projects/cmake-build-debug",
-		"source" : "C:/Users/Cole/CLionProjects/Projects"
+		"build" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug",
+		"source" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 3
+		"minor" : 4
 	}
 }
