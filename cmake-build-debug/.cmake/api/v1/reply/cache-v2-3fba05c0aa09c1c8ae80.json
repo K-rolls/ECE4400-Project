@@ -50,22 +50,6 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "BZRCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "CCACHE_EXECUTABLE",
 			"properties" : 
 			[
@@ -209,10 +193,6 @@
 			"name" : "CMAKE_CTEST_COMMAND",
 			"properties" : 
 			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "Path to ctest program executable."
@@ -1131,7 +1111,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "7"
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1738,38 +1718,6 @@
 			"value" : "5"
 		},
 		{
-			"name" : "CVSCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
-			"name" : "CVS_UPDATE_OPTIONS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "DART_TESTING_TIMEOUT",
 			"properties" : 
 			[
@@ -1932,22 +1880,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "HGCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "JSONCPP_STATIC_WINDOWS_RUNTIME",
@@ -2118,22 +2050,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "P4COMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
-		},
-		{
 			"name" : "SITE",
 			"properties" : 
 			[
@@ -2148,22 +2064,6 @@
 			],
 			"type" : "STRING",
 			"value" : "KeeganDESKTOPAJFDS0A"
-		},
-		{
-			"name" : "SVNCOMMAND",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "(This variable does not exist and should not be used)"
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : ""
 		},
 		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
@@ -2214,6 +2114,66 @@
 			"value" : "167f111c0d0a263f827ea446fd4a36fe"
 		},
 		{
+			"name" : "jsoncpp/include/CMakeLists.txt_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp/include/CMakeLists.txt."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp/include/CMakeLists.txt_DIR-NOTFOUND"
+		},
+		{
+			"name" : "jsoncpp/include/PreventInBuildInstalls.cmake_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp/include/PreventInBuildInstalls.cmake."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp/include/PreventInBuildInstalls.cmake_DIR-NOTFOUND"
+		},
+		{
+			"name" : "jsoncpp/include/PreventInBuildInstalls_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp/include/PreventInBuildInstalls."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp/include/PreventInBuildInstalls_DIR-NOTFOUND"
+		},
+		{
+			"name" : "jsoncpp/include/json/json.h_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp/include/json/json.h."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp/include/json/json.h_DIR-NOTFOUND"
+		},
+		{
+			"name" : "jsoncpp/jsoncpp-namespaced-targets_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp/jsoncpp-namespaced-targets."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp/jsoncpp-namespaced-targets_DIR-NOTFOUND"
+		},
+		{
 			"name" : "jsoncpp_BINARY_DIR",
 			"properties" : 
 			[
@@ -2224,6 +2184,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp"
+		},
+		{
+			"name" : "jsoncpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for jsoncpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "jsoncpp_DIR-NOTFOUND"
 		},
 		{
 			"name" : "jsoncpp_IS_TOP_LEVEL",

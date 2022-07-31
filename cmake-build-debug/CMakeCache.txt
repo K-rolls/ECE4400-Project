@@ -390,8 +390,26 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 //Name of the computer/site where compile is being run
 SITE:STRING=KeeganDESKTOPAJFDS0A
 
+//The directory containing a CMake configuration file for jsoncpp/include/CMakeLists.txt.
+jsoncpp/include/CMakeLists.txt_DIR:PATH=jsoncpp/include/CMakeLists.txt_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for jsoncpp/include/PreventInBuildInstalls.cmake.
+jsoncpp/include/PreventInBuildInstalls.cmake_DIR:PATH=jsoncpp/include/PreventInBuildInstalls.cmake_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for jsoncpp/include/PreventInBuildInstalls.
+jsoncpp/include/PreventInBuildInstalls_DIR:PATH=jsoncpp/include/PreventInBuildInstalls_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for jsoncpp/include/json/json.h.
+jsoncpp/include/json/json.h_DIR:PATH=jsoncpp/include/json/json.h_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for jsoncpp/jsoncpp-namespaced-targets.
+jsoncpp/jsoncpp-namespaced-targets_DIR:PATH=jsoncpp/jsoncpp-namespaced-targets_DIR-NOTFOUND
+
 //Value Computed by CMake
 jsoncpp_BINARY_DIR:STATIC=C:/Users/Keegan/Documents/Github/ECE4400-Project/ECE4400-Project/cmake-build-debug/jsoncpp
+
+//The directory containing a CMake configuration file for jsoncpp.
+jsoncpp_DIR:PATH=jsoncpp_DIR-NOTFOUND
 
 //Value Computed by CMake
 jsoncpp_IS_TOP_LEVEL:STATIC=OFF
@@ -420,8 +438,6 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
 CMAKE_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/bin/cpack.exe
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/bin/ctest.exe
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -536,7 +552,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
