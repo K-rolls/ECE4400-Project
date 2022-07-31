@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Cole/CLionProjects/Projects/cmake-build-debug"
+			"value" : "c:/Users/Cole/Documents/GitHub/ECE4400-Project/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Cole/CLionProjects/Projects"
+			"value" : "C:/Users/Cole/Documents/GitHub/ECE4400-Project"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Cole/CLionProjects/Projects/cmake-build-debug"
+			"value" : "C:/Users/Cole/Documents/GitHub/ECE4400-Project/cmake-build-debug"
 		},
 		{
 			"name" : "Projects_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Cole/CLionProjects/Projects"
+			"value" : "C:/Users/Cole/Documents/GitHub/ECE4400-Project"
 		}
 	],
 	"kind" : "cache",

@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Cole/CLionProjects/Projects/cmake-build-debug",
-		"source" : "C:/Users/Cole/CLionProjects/Projects"
+		"build" : "C:/Users/Cole/Documents/GitHub/ECE4400-Project/cmake-build-debug",
+		"source" : "C:/Users/Cole/Documents/GitHub/ECE4400-Project"
 	},
 	"version" : 
 	{
